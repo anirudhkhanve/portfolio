@@ -1,6 +1,19 @@
 
 import React from 'react';
 
+import project1 from "./assets/project_1.png";
+import project2 from "./assets/project_2.png";
+import project3 from "./assets/project_3.png";
+import profile from "./assets/profile.png";
+
+export const IMAGE = [
+  {
+    id:'1',
+    image: profile,
+    alt_text: 'Aniruddha kahnve'
+  }
+];
+
 export const EXPERIENCE_DATA = [
   {
     id: 'exp-1',
@@ -28,7 +41,7 @@ export const PROJECT_DATA = [
     id: 'proj-1',
     title: 'Pond Fish Food eCommerce Platform (U.S. Market)',
     description: 'Customized and enhanced the prebuilt homepage layout to deliver a more intuitive, user-friendly experience, while implementing advanced search functionality with auto-suggestions to improve product discoverability and streamline the overall customer journey.',
-    imageUrl: '/project_1.png',
+    imageUrl: project1,
     tags: ['HTML', 'CSS', 'PHP', 'Wordpress'],
     link: 'https://pondmax.com/'
   },
@@ -36,7 +49,7 @@ export const PROJECT_DATA = [
     id: 'proj-2',
     title: 'c2fo multisite',
     description: 'Redesigned and improved the website navigation bar to align with updated UI/UX standards. Implemented a dynamic header icon management system with admin-side control, and developed custom website sections using Gutenberg blocks and Advanced Custom Fields (ACF) to deliver a flexible, client-focused content management solution.',
-    imageUrl: '/project_2.png',
+    imageUrl: project2,
     tags: ['HTML', 'CSS', 'javascript', 'Bootstrap', 'PHP', 'ACF'],
     link: 'https://c2fo.com/'
   },
@@ -44,7 +57,7 @@ export const PROJECT_DATA = [
     id: 'proj-3',
     title: 'Kinesis Advisory',
     description: 'Developed a WordPress website for an Australia-based business coaching provider using the WordPress Block Editor (Gutenberg), delivering a responsive, user-friendly design aligned with the client’s branding and business objectives.',
-    imageUrl: '/project_3.png',
+    imageUrl: project3,
     tags: ['Block Editor', 'HTML', 'CSS', 'javascript'],
     link: 'https://www.kinesisadvisory.com.au/'
   }

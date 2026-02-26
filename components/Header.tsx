@@ -1,6 +1,8 @@
 
 import React from 'react';
 import { SOCIAL_ICONS } from '../constants.jsx';
+import { IMAGE } from '../constants.jsx';
+
 
 const Header = ({ activeSection }) => {
   const navItems = [
@@ -15,8 +17,8 @@ const Header = ({ activeSection }) => {
         {/* Profile Image - Increased to w-32 h-32 (approx 128px) */}
         <div className="mb-8 flex justify-center md:justify-start">
   <img 
-    src="new.png" 
-    alt="Aniruddha kahnve" 
+    src={IMAGE[0].image} 
+    alt={"IMAGE[1].alt_text}"} 
     className="h-30 w-30 rounded-full border-4 border-slate-200/10 object-cover shadow-2xl transition-transform hover:scale-105"
   />
 </div>
