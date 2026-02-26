@@ -1,0 +1,1 @@
+// TypeScript definitions are no longer used in this project.
